@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+header{
+    padding: 0.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+}
+
+.logo_face{
+    height: 55px;
+}
+.btn_hader{
+    padding:  10px;
+    margin: 10px;
+    font-weight: bold ;
+    color:white;
+    background-color: #1b74e4;
+    border: #1b74e4;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+aside{
+    width: 100%;
+    height: 90%;;
+    background-size: contain;
+    opacity: 0.7;
+    padding-top: 50px;
+    background-image: url(img/fundo.png);
+}
+main{
+    width: 486px;
+    margin: auto;
+    height: 500px;
+    padding: 2.5%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(184, 184, 184);
+}
+.titulo{
+    width: 100%;
+    font-size: 30px;
+    margin: 8% auto;
+}
+.caixa_login{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 3%;
+    color: black;
+    border-radius: 10px;            
+}
+.entrar{
+    display: block;
+    width: 100%;
+    padding: 3%;
+    background-color: #1b74e4;
+    font-weight: bold;
+    color: white;
+    border: #1b74e4;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: #1b74e4;
+    cursor: pointer;
+}
+.re_senha{
+    display: block;
+    text-decoration: none;
+    color: #1b74e4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+article > p{
+    font-size: 20px;
+}
+.btm_cadastro{
+    margin-top: 20px;
+    width: 50%;
+    padding: 3%;
+    font-weight: bold;
+    color: white;
+    background-color:#31a24c;
+    border-radius: 10px;
+    border: #31a24c;
+    cursor: pointer;
+}
